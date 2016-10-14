@@ -1,8 +1,3 @@
-// on click of a tag, it should be toggled - either added to or removed from an internal tracking
-// array and its style changed.
-//
-// When the internal array changes, it should write out a new tag list to the hidden input
-
 (function($) {
     $(document).ready(function() {
         $(".taggit-labels").closest("div").each(function(i) {
